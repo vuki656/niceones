@@ -1,6 +1,9 @@
 module.exports = {
-  siteMetadata: {
-    title: "Nice Ones",
-  },
-  plugins: ["gatsby-plugin-styled-components"],
-};
+    plugins: [
+        'gatsby-plugin-styled-components',
+        'gatsby-plugin-eslint',
+    ],
+    siteMetadata: {
+        title: 'Nice Ones',
+    },
+}
