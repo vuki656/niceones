@@ -1,13 +1,4 @@
 {
-    "globals": {
-        "__PATH_PREFIX__": true
-    },
-    "overrides": [
-        {
-            "files": ["**/*.ts", "**/*.tsx"],
-            "plugins": ["@typescript-eslint"]
-        }
-    ],
     "extends": [
         "@dvukovic/eslint-config/core",
         "@dvukovic/eslint-config/react"

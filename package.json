@@ -1,37 +1,22 @@
 {
-  "name": "nice-ones",
-  "version": "1.0.0",
+  "name": "niceones",
+  "version": "0.1.0",
   "private": true,
-  "description": "Nice Ones",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "lint": "eslint ./src"
+    "start-dev": "next dev",
+    "start-prod": "next start",
+    "build": "next build"
   },
   "dependencies": {
-    "babel-plugin-styled-components": "^1.12.0",
-    "gatsby": "^2.26.1",
-    "gatsby-plugin-styled-components": "^3.9.0",
-    "gatsby-plugin-typescript": "^2.11.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "styled-components": "^5.2.1"
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "@dvukovic/eslint-config": "^3.0.0",
-    "@typescript-eslint/parser": "^4.14.1",
+    "@dvukovic/eslint-config": "^4.2.0",
+    "@types/node": "^14.14.22",
+    "@types/react": "^17.0.0",
     "eslint": "^7.18.0",
-    "eslint-loader": "^4.0.2",
-    "typescript": "^4.0.0"
-  },
-  "resolutions": {
-    "@typescript-eslint/eslint-plugin": "^4.4.0",
-    "@typescript-eslint/parser": "^4.4.0"
+    "typescript": "^4.1.3"
   }
 }
