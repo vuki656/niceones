@@ -69,7 +69,7 @@ export const websites: WebsiteType[] = [
         description: 'Collaboration whiteboard',
         faviconPath: '/websites/favicons/miro.png',
         name: 'Miro',
-        palette: ['#4262ff', '#9d28b2', '#ff9900', '#3e4eb8', '#009788', '#ff9900', '#ffd02f', '#050038'],
+        palette: ['#4262ff', '#9d28b2', '#ff9900', '#3e4eb8', '#009788', '#ffd02f', '#050038'],
         url: 'https://miro.com/',
     },
     {
