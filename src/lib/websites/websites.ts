@@ -90,4 +90,13 @@ export const websites: WebsiteType[] = [
         palette: ['#1ea7fd', '#282c35', '#fc521f', '#ffae00', '#37d5d3', '#6f2cac', '#66bf3c', '#b284dc'],
         url: 'https://www.chromatic.com/',
     },
+    {
+        bannerPath: '/websites/banners/textemall.png',
+        color: '#ff4a29',
+        description: 'Mass text messaging and automated calling',
+        faviconPath: '/websites/favicons/textemall.png',
+        name: 'Text Em All',
+        palette: ['#ff4a29', '#32dcf3', '#ffffff', '#2e405d', '#ffc531', '#a7261e', '#2da3a8'],
+        url: 'https://www.text-em-all.com/',
+    },
 ]
