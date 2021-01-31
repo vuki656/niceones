@@ -8,7 +8,7 @@ export default function HomePage() {
         <>
             <NextHead>
                 <title>
-                    OEM Dashboard: Login
+                    Nice Onces
                 </title>
             </NextHead>
             <Home />

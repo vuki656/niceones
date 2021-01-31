@@ -5,7 +5,9 @@ export const HomeRoot = styled('div')((props) => ({
     display: 'grid',
     gap: props.theme.spacing.md,
     gridTemplateColumns: '1fr 1fr 1fr 1fr',
+    gridTemplateRows: 'max-content',
     height: '100%',
+    overflow: 'auto',
     padding: props.theme.spacing.xxl,
     width: '100%',
 }))
