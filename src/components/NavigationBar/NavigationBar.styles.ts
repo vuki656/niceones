@@ -9,7 +9,8 @@ export const NavigationBarRoot = styled('div')((props) => {
         flexDirection: 'row',
         height: '70px',
         justifyContent: 'flex-start',
-        paddingLeft: props.theme.spacing.md,
+        paddingLeft: props.theme.spacing.xl,
+        paddingRight: props.theme.spacing.xl,
     }
 })
 
@@ -18,3 +19,8 @@ export const NavigationBarTitle = styled('p')({
     fontWeight: 'bold',
     margin: 0,
 })
+
+export const NavigationBarDescription = styled('p')((props) => ({
+    color: props.theme.palette.grey.light200,
+    marginLeft: props.theme.spacing.md,
+}))
