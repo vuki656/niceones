@@ -99,4 +99,13 @@ export const websites: WebsiteType[] = [
         palette: ['#ff4a29', '#32dcf3', '#ffffff', '#2e405d', '#ffc531', '#a7261e', '#2da3a8'],
         url: 'https://www.text-em-all.com/',
     },
+    {
+        bannerPath: '/websites/banners/netlify.png',
+        color: '#15847d',
+        description: 'Hosting platform',
+        faviconPath: '/websites/favicons/netlify.png',
+        name: 'Netlify',
+        palette: ['#ff4a29', '#7c0c64', '#e8114e', '#ffffff', '#dc3891', '#2dcdff', '#146396', '#01ad9f'],
+        url: 'https://www.netlify.com/',
+    },
 ]
