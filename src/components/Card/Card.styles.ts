@@ -71,8 +71,12 @@ export const CardLinkIcon = styled('div')((props) => ({
 export const CardLinkURL = styled('a')((props) => ({
     '&:hover': {
         color: props.theme.palette.black,
+        fontWeight: 'bold',
     },
     color: props.theme.palette.grey.light200,
+    cursor: 'pointer',
+    transition: props.theme.transitions.create(['color', 'font-weight'], 200),
+
 }))
 
 export const CardColors = styled('div')({
