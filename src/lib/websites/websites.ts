@@ -81,4 +81,13 @@ export const websites: WebsiteType[] = [
         palette: ['#068dfe', '#f7f9fa', '#ffa90a', '#ff7e3f'],
         url: 'https://stackshare.io/',
     },
+    {
+        bannerPath: '/websites/banners/chromatic.png',
+        color: '#1ea7fd',
+        description: 'UI development collaboration and feedback platform',
+        faviconPath: '/websites/favicons/chromatic.png',
+        name: 'Chromatic',
+        palette: ['#1ea7fd', '#282c35', '#fc521f', '#ffae00', '#37d5d3', '#6f2cac', '#66bf3c', '#b284dc'],
+        url: 'https://www.chromatic.com/',
+    },
 ]
