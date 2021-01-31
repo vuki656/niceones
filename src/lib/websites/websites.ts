@@ -30,7 +30,7 @@ export const websites: WebsiteType[] = [
     {
         bannerPath: '/websites/banners/expo.png',
         color: '#a852dc',
-        description: 'Open-source platform for building cross-platform apps',
+        description: 'Open-source platform for building cross-platform applications',
         faviconPath: '/websites/favicons/expo.png',
         name: 'Expo',
         palette: ['#191936', '#0086fc', '#d957d9', '#7f6df3', '#4630eb'],
@@ -57,10 +57,19 @@ export const websites: WebsiteType[] = [
     {
         bannerPath: '/websites/banners/anydo.png',
         color: '#0083ff',
-        description: 'Todo App',
+        description: 'Task manager',
         faviconPath: '/websites/favicons/anydo.png',
         name: 'Any.do',
         palette: ['#0083ff', '#ebebeb', '#8c23aa', '#6b66cf', '#ffae26', '#f60350'],
         url: 'https://www.any.do/',
+    },
+    {
+        bannerPath: '/websites/banners/miro.png',
+        color: '#4262ff',
+        description: 'Collaboration whiteboard',
+        faviconPath: '/websites/favicons/miro.png',
+        name: 'Miro',
+        palette: ['#4262ff', '#9d28b2', '#ff9900', '#3e4eb8', '#009788', '#ff9900', '#ffd02f', '#050038'],
+        url: 'https://miro.com/',
     },
 ]
