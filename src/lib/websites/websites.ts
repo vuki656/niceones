@@ -72,4 +72,13 @@ export const websites: WebsiteType[] = [
         palette: ['#4262ff', '#9d28b2', '#ff9900', '#3e4eb8', '#009788', '#ff9900', '#ffd02f', '#050038'],
         url: 'https://miro.com/',
     },
+    {
+        bannerPath: '/websites/banners/stackshare.png',
+        color: '#068dfe',
+        description: 'Software discovery and management platform',
+        faviconPath: '/websites/favicons/stackshare.png',
+        name: 'Stackshare',
+        palette: ['#068dfe', '#f7f9fa', '#ffa90a', '#ff7e3f'],
+        url: 'https://stackshare.io/',
+    },
 ]
