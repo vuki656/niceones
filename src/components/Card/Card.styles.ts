@@ -35,14 +35,12 @@ export const CardTitle = styled('div')({
 export const CardTitleText = styled('p')((props) => ({
     fontSize: '25px',
     fontWeight: 500,
-    margin: 0,
     paddingLeft: props.theme.spacing.xs,
 }))
 
 export const CardDescription = styled('p')((props) => ({
     color: props.theme.palette.grey.light200,
     height: '80px',
-    margin: 0,
     paddingBottom: props.theme.spacing.md,
     paddingTop: props.theme.spacing.md,
 }))

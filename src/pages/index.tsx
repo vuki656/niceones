@@ -8,7 +8,7 @@ export default function HomePage() {
         <>
             <NextHead>
                 <title>
-                    Nice Onces
+                    Nice Ones
                 </title>
             </NextHead>
             <Home />

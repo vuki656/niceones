@@ -37,6 +37,15 @@ export const websites: WebsiteType[] = [
         url: 'https://expo.io/',
     },
     {
+        bannerPath: '/websites/banners/canny.png',
+        color: '#969dfa',
+        description: 'Build better products with customer feedback',
+        faviconPath: '/websites/favicons/canny.png',
+        name: 'Canny',
+        palette: ['#6dd345', '#f8f8fa', '#969dfa', '#4753c6', '#3d498d'],
+        url: 'https://canny.io/',
+    },
+    {
         bannerPath: '/websites/banners/shuffle.png',
         color: '#3758f9',
         description: 'Create templates in minutes',

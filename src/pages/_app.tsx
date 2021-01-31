@@ -10,9 +10,10 @@ import styled from 'styled-components'
 import { NavigationBar } from '../components/NavigationBar'
 
 const Root = styled('div')({
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'flex-start',
+    display: 'grid',
+    gridTemplateColumns: '1fr',
+    gridTemplateRows: 'auto 1fr',
+    height: '100%',
     width: '100%',
 })
 
