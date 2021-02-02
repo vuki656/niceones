@@ -126,4 +126,13 @@ export const websites: WebsiteType[] = [
         palette: ['#fd0', '#0d0c22', '#faf7f2', '#ed7ea6', '#4db7c6', '#f7ba56', '#5e7fff'],
         url: 'https://www.buymeacoffee.com/',
     },
+    {
+        bannerPath: '/websites/banners/blinkist.png',
+        color: '#2cde80',
+        description: 'Book-summarizing subscription service',
+        faviconPath: '/websites/favicons/blinkist.png',
+        name: 'Blinkist',
+        palette: ['#2cde80', '#03314b', '#0365f2', '#f1f6f4', '#d7e9ff'],
+        url: 'https://www.blinkist.com/',
+    },
 ]
