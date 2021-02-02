@@ -117,4 +117,13 @@ export const websites: WebsiteType[] = [
         palette: ['#ff4785', '#66bf3c', '#4bd9d7', '#1ea7fd', '#f6f9fc', '#333333'],
         url: 'https://storybook.js.org/',
     },
+    {
+        bannerPath: '/websites/banners/buymeacoffe.png',
+        color: '#fd0',
+        description: 'Simple, meaningful way to fund your creative work',
+        faviconPath: '/websites/favicons/buymeacoffe.png',
+        name: 'Buy Me a Coffe',
+        palette: ['#fd0', '#0d0c22', '#faf7f2', '#ed7ea6', '#4db7c6', '#f7ba56', '#5e7fff'],
+        url: 'https://www.buymeacoffee.com/',
+    },
 ]
