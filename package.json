@@ -5,8 +5,7 @@
   "scripts": {
     "start-dev": "next dev",
     "start-prod": "next start",
-    "build": "next build",
-    "export": "next export"
+    "build": "next build"
   },
   "dependencies": {
     "@dvukovic/dujo-ui": "^3.0.0",
