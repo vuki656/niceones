@@ -135,4 +135,13 @@ export const websites: WebsiteType[] = [
         palette: ['#2cde80', '#03314b', '#0365f2', '#f1f6f4', '#d7e9ff'],
         url: 'https://www.blinkist.com/',
     },
+    {
+        bannerPath: '/websites/banners/stripe.png',
+        color: '#424770',
+        description: 'Financial services and software as a service company',
+        faviconPath: '/websites/favicons/stripe.png',
+        name: 'Stripe',
+        palette: ['#424770', '#87bbfd', '#6772e5', '#87bbfd', '#f6f9fc', '#db78dd', '#3ecf8e', '#f0b64b'],
+        url: 'https://stripe.com/',
+    },
 ]
