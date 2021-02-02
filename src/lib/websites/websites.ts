@@ -180,4 +180,13 @@ export const websites: WebsiteType[] = [
         palette: ['#02b388', '#f1fff8', '#010878', '#ffa64d', '#000000', '#f2f7fe', '#fff8f2', '#0e3448'],
         url: 'https://www.invoca.com/',
     },
+    {
+        bannerPath: '/websites/banners/sproutsocial.png',
+        color: '#0ca750',
+        description: 'Social media management platform',
+        faviconPath: '/websites/favicons/sproutsocial.png',
+        name: 'Sprout Social',
+        palette: ['#0ca750', '#002138', '#026661', '#08c4b2', '#2079c3', '#ffc618', '#ec4979', '#f3f4f4'],
+        url: 'https://sproutsocial.com/',
+    },
 ]
