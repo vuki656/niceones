@@ -19,12 +19,12 @@ jobs:
         env:
           CI: true
           DEPLOY_TARGET: gh-pages
-      - run: touch out/.nojekyll
+      - run: touch .next/.nojekyll
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: out
+          FOLDER: .next
           CLEAN: true
