@@ -15,7 +15,7 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
-    "@dvukovic/eslint-config": "^4.3.0",
+    "@dvukovic/eslint-config": "^4.4.0",
     "@types/node": "^14.14.22",
     "@types/react": "^17.0.0",
     "@types/styled-components": "^5.1.7",

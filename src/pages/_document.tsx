@@ -5,10 +5,36 @@ import Document, {
     Main,
     NextScript,
 } from 'next/document'
+import { ServerStyleSheet } from 'styled-components'
 
 class MyDocument extends Document {
     static async getInitialProps(context: DocumentContext) {
-        return Document.getInitialProps(context)
+        const sheet = new ServerStyleSheet()
+        const originalRenderPage = context.renderPage
+
+        try {
+            context.renderPage = () => {
+                return originalRenderPage({
+                    enhanceApp: (App) => (props) => {
+                        return sheet.collectStyles(<App {...props} />)
+                    },
+                })
+            }
+
+            const initialProps = await Document.getInitialProps(context)
+
+            return {
+                ...initialProps,
+                styles: (
+                    <>
+                        {initialProps.styles}
+                        {sheet.getStyleElement()}
+                    </>
+                ),
+            }
+        } finally {
+            sheet.seal()
+        }
     }
 
     render() {

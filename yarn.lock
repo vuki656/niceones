@@ -189,10 +189,10 @@
     react-datepicker "^3.3.0"
     react-spring "^9.0.0-rc.3"
 
-"@dvukovic/eslint-config@^4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@dvukovic/eslint-config/-/eslint-config-4.3.0.tgz#2d6d9abd138382c934f58160603abeb451fbd76d"
-  integrity sha512-Eq/G0SVRRRD3tSr/rpmnOEDMSwWX7WYoRKKLjwuGjOpKRfczOiwP9TYkwfyeDRFigreJfLNbSr8Y4VWTUUBdCw==
+"@dvukovic/eslint-config@^4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@dvukovic/eslint-config/-/eslint-config-4.4.0.tgz#5164247a795bdf8b1e95bffb8f18c4df2b47f014"
+  integrity sha512-zCv/uRrsLZD64PfkhmkoGZw2nz/EhBD2wJDJhFRgFrlN/om4h9Ep5D9IcE9xf3foX12nQ4YDr1XtpG+jQCTRFw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.14.1"
     "@typescript-eslint/parser" "^4.14.1"
