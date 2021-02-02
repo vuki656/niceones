@@ -144,4 +144,13 @@ export const websites: WebsiteType[] = [
         palette: ['#424770', '#87bbfd', '#6772e5', '#87bbfd', '#f6f9fc', '#db78dd', '#3ecf8e', '#f0b64b'],
         url: 'https://stripe.com/',
     },
+    {
+        bannerPath: '/websites/banners/klientboost.png',
+        color: '#6adaf7',
+        description: 'Marketing agency',
+        faviconPath: '/websites/favicons/klientboost.png',
+        name: 'Klientboost',
+        palette: ['#6adaf7', '#ff5056', '#fafafa', '#00c853', '#f89d81', '#fcc066', '#515979', '#bad2e1'],
+        url: 'https://klientboost.com/',
+    },
 ]
