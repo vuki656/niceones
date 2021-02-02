@@ -153,4 +153,13 @@ export const websites: WebsiteType[] = [
         palette: ['#6adaf7', '#ff5056', '#fafafa', '#00c853', '#f89d81', '#fcc066', '#515979', '#bad2e1'],
         url: 'https://klientboost.com/',
     },
+    {
+        bannerPath: '/websites/banners/pauza.png',
+        color: '#ed2e2e',
+        description: 'Food delivery service',
+        faviconPath: '/websites/favicons/pauza.png',
+        name: 'Pauza',
+        palette: ['#ed2e2e', '#333333', '#ffc200', '#f7f7f7', '#00bc8b'],
+        url: 'https://www.pauza.hr/',
+    },
 ]
