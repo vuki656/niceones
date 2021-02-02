@@ -171,4 +171,13 @@ export const websites: WebsiteType[] = [
         palette: ['#ffd152', '#584b4f', '#343233', '#c13f21', '#d36e2d', '#dda032', '#78af9f', '#659cc8'],
         url: 'https://atom.io/',
     },
+    {
+        bannerPath: '/websites/banners/invoca.png',
+        color: '#02b388',
+        description: 'AI-powered call tracking and conversational analytics company',
+        faviconPath: '/websites/favicons/invoca.png',
+        name: 'Invoca',
+        palette: ['#02b388', '#f1fff8', '#010878', '#ffa64d', '#000000', '#f2f7fe', '#fff8f2', '#0e3448'],
+        url: 'https://www.invoca.com/',
+    },
 ]
