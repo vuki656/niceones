@@ -179,20 +179,20 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@dvukovic/dujo-ui@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@dvukovic/dujo-ui/-/dujo-ui-3.0.0.tgz#e83270320802c35f59d4d5534419977727119880"
-  integrity sha512-LQDu5AB91e/9JXdxIiXkgDFVoPXYxRL2vAatzhS4rP46+3xQDtqFvzTaNgWWYl9v/JcwP51+oN9ke4myx1p0Hw==
+"@dvukovic/dujo-ui@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@dvukovic/dujo-ui/-/dujo-ui-3.0.3.tgz#2bb0d7f4576d18dc7d72faf972c7e5667e75414c"
+  integrity sha512-AW+xqO/17dap2i0Kn1CxmcewJFg+zLWuUTjSZwztMOwqQ4dFF/D06LF0FMCTn1qdfdypsYF+QCZft99fhnKtcw==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@tippyjs/react" "^4.2.0"
     react-datepicker "^3.3.0"
     react-spring "^9.0.0-rc.3"
 
-"@dvukovic/eslint-config@^4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@dvukovic/eslint-config/-/eslint-config-4.4.0.tgz#5164247a795bdf8b1e95bffb8f18c4df2b47f014"
-  integrity sha512-zCv/uRrsLZD64PfkhmkoGZw2nz/EhBD2wJDJhFRgFrlN/om4h9Ep5D9IcE9xf3foX12nQ4YDr1XtpG+jQCTRFw==
+"@dvukovic/eslint-config@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@dvukovic/eslint-config/-/eslint-config-4.5.0.tgz#3387f8f0e539f3b33484a209471a4770214f1eae"
+  integrity sha512-ISf1H7b83OpIFpa7Gb8F4Lh29vYKD0q97zmYuccZ6uAMcpHTsOvZ8qKjhrxfMywUQAiTf932IQGIIu/U88ufLg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.14.1"
     "@typescript-eslint/parser" "^4.14.1"
@@ -202,6 +202,7 @@
     eslint-plugin-react "^7.22.0"
     eslint-plugin-react-hooks "^4.2.0"
     eslint-plugin-react-native "^3.10.0"
+    eslint-plugin-sort-destructure-keys "^1.3.5"
     eslint-plugin-sort-keys-fix "^1.1.1"
     eslint-plugin-unused-imports "^1.0.1"
 
@@ -1575,6 +1576,13 @@ eslint-plugin-react@^7.22.0:
     resolve "^1.18.1"
     string.prototype.matchall "^4.0.2"
 
+eslint-plugin-sort-destructure-keys@^1.3.5:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sort-destructure-keys/-/eslint-plugin-sort-destructure-keys-1.3.5.tgz#c6f45c3e58d4435564025a6ca5f4a838010800fd"
+  integrity sha512-JmVpidhDsLwZsmRDV7Tf/vZgOAOEQGkLtwToSvX5mD8fuWYS/xkgMRBsalW1fGlc8CgJJwnzropt4oMQ7YCHLg==
+  dependencies:
+    natural-compare-lite "^1.4.0"
+
 eslint-plugin-sort-keys-fix@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-sort-keys-fix/-/eslint-plugin-sort-keys-fix-1.1.1.tgz#2ed201b53fd4a89552c6e2abd38933f330a4b62e"
@@ -2465,6 +2473,11 @@ native-url@0.3.4:
   integrity sha512-6iM8R99ze45ivyH8vybJ7X0yekIcPf5GgLV5K0ENCbmRcaRIDoj37BC8iLEmaaBfqqb8enuZ5p0uhY+lVAbAcA==
   dependencies:
     querystring "^0.2.0"
+
+natural-compare-lite@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/natural-compare-lite/-/natural-compare-lite-1.4.0.tgz#17b09581988979fddafe0201e931ba933c96cbb4"
+  integrity sha1-F7CVgZiJef3a/gIB6TG6kzyWy7Q=
 
 natural-compare@^1.4.0:
   version "1.4.0"

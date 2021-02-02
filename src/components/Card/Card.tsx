@@ -1,3 +1,4 @@
+import { Tooltip } from '@dvukovic/dujo-ui'
 import Image from 'next/image'
 import * as React from 'react'
 
@@ -23,13 +24,13 @@ export const Card: React.FunctionComponent<CardProps> = (props) => {
     const { website } = props
 
     const {
-        description,
-        name,
         bannerPath,
-        faviconPath,
-        url,
         color,
+        description,
+        faviconPath,
+        name,
         palette,
+        url,
     } = website
 
     const faviconSize = 25
@@ -72,10 +73,17 @@ export const Card: React.FunctionComponent<CardProps> = (props) => {
                         <CardColorsPalette>
                             {palette?.map((paletteColor) => {
                                 return (
-                                    <PaletteIcon
+                                    <Tooltip
+                                        enterDelay={100}
+                                        exitDelay={0}
+                                        interactive={true}
                                         key={paletteColor}
-                                        paletteColor={paletteColor}
-                                    />
+                                        label={paletteColor}
+                                    >
+                                        <PaletteIcon
+                                            paletteColor={paletteColor}
+                                        />
+                                    </Tooltip>
                                 )
                             })}
                         </CardColorsPalette>
