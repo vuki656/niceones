@@ -108,4 +108,13 @@ export const websites: WebsiteType[] = [
         palette: ['#ff4a29', '#7c0c64', '#e8114e', '#ffffff', '#dc3891', '#2dcdff', '#146396', '#01ad9f'],
         url: 'https://www.netlify.com/',
     },
+    {
+        bannerPath: '/websites/banners/storybook.png',
+        color: '#ff4785',
+        description: 'Open-source tool for developing UI components in isolation',
+        faviconPath: '/websites/favicons/storybook.png',
+        name: 'Storybook',
+        palette: ['#ff4785', '#66bf3c', '#4bd9d7', '#1ea7fd', '#f6f9fc', '#333333'],
+        url: 'https://storybook.js.org/',
+    },
 ]
