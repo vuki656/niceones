@@ -108,6 +108,7 @@ export const PaletteIcon = styled('div')<PaletteIconProps>((props) => ({
     backgroundColor: props.paletteColor,
     borderRadius: '100%',
     boxShadow: 'rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px',
+    cursor: 'pointer',
     height: '30px',
     width: '30px',
 }))

@@ -8,6 +8,7 @@ import * as React from 'react'
 import styled from 'styled-components'
 
 import { NavigationBar } from '../components/NavigationBar'
+import 'tippy.js/dist/tippy.css'
 
 const Root = styled('div')({
     display: 'grid',
