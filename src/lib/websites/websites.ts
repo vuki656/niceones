@@ -189,4 +189,13 @@ export const websites: WebsiteType[] = [
         palette: ['#0ca750', '#002138', '#026661', '#08c4b2', '#2079c3', '#ffc618', '#ec4979', '#f3f4f4'],
         url: 'https://sproutsocial.com/',
     },
+    {
+        bannerPath: '/websites/banners/drip.png',
+        color: '#f224f2',
+        description: 'Marketing automation platform',
+        faviconPath: '/websites/favicons/drip.png',
+        name: 'Drip',
+        palette: ['#f224f2', '#01095b', '#24f28c', '#ffda24', '#f22446', '#24f28d', '#24aff2', '#7a59fb'],
+        url: 'https://www.drip.com/',
+    },
 ]
