@@ -162,4 +162,13 @@ export const websites: WebsiteType[] = [
         palette: ['#ed2e2e', '#333333', '#ffc200', '#f7f7f7', '#00bc8b'],
         url: 'https://www.pauza.hr/',
     },
+    {
+        bannerPath: '/websites/banners/atom.png',
+        color: '#ffd152',
+        description: 'Text editor',
+        faviconPath: '/websites/favicons/atom.png',
+        name: 'Atom',
+        palette: ['#ffd152', '#584b4f', '#343233', '#c13f21', '#d36e2d', '#dda032', '#78af9f', '#659cc8'],
+        url: 'https://atom.io/',
+    },
 ]
