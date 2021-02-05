@@ -80,9 +80,7 @@ export const Card: React.FunctionComponent<CardProps> = (props) => {
                                         key={paletteColor}
                                         label={paletteColor}
                                     >
-                                        <PaletteIcon
-                                            paletteColor={paletteColor}
-                                        />
+                                        <PaletteIcon paletteColor={paletteColor} />
                                     </Tooltip>
                                 )
                             })}
