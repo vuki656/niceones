@@ -333,4 +333,13 @@ export const websites: WebsiteType[] = [
         palette: ['#5e6ad2', '#33333a', '#da615d', '#e69d5a'],
         url: 'https://linear.app/',
     },
+    {
+        bannerPath: '/websites/banners/brave.png',
+        color: '#fb542b',
+        description: 'Browser',
+        faviconPath: '/websites/favicons/brave.png',
+        name: 'Brave',
+        palette: ['#fb542b', '#482fc7', '#b524b0'],
+        url: 'https://brave.com/',
+    },
 ]
