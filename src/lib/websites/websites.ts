@@ -369,4 +369,13 @@ export const websites: WebsiteType[] = [
         palette: ['#329da1', '#ef3314', '#fbdb3e', '#f9dd9b', '#ee563e'],
         url: 'https://gumroad.com/',
     },
+    {
+        bannerPath: '/websites/banners/screeps.png',
+        color: '#3d57ca',
+        description: 'MMO sandbox game for programmers',
+        faviconPath: '/websites/favicons/screeps.png',
+        name: 'Screeps',
+        palette: ['#3d57ca', '#191b20', '#13151a'],
+        url: 'https://screeps.com/',
+    },
 ]
