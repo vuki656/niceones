@@ -288,4 +288,13 @@ export const websites: WebsiteType[] = [
         palette: ['#5850ec', '#f9fafb', '#31c48d', '#fdf6b2'],
         url: 'https://plausible.io/',
     },
+    {
+        bannerPath: '/websites/banners/graphy.png',
+        color: '#989ef2',
+        description: 'Data collaboration for teams',
+        faviconPath: '/websites/favicons/graphy.png',
+        name: 'Graphy',
+        palette: ['#989ef2', '#0f0f18', '#f9be36', '#6ca6dd', '#bde0f8', '#f9bede', '#64b59e'],
+        url: 'https://graphyapp.com/',
+    },
 ]
