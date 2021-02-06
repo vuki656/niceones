@@ -270,4 +270,13 @@ export const websites: WebsiteType[] = [
         palette: ['#79589f', '#1969ca', '#e8e8e8', '#fafbfc'],
         url: 'https://www.heroku.com/',
     },
+    {
+        bannerPath: '/websites/banners/conversion.png',
+        color: '#f55d81',
+        description: 'AI copy writing',
+        faviconPath: '/websites/favicons/conversion.png',
+        name: 'Conversion',
+        palette: ['#f55d81', '#94ddd5', '#060606', '#d700ff'],
+        url: 'https://www.conversion.ai/',
+    },
 ]
