@@ -351,4 +351,13 @@ export const websites: WebsiteType[] = [
         palette: ['#663399', '#bc027f', '#05f7f4', '#159bf3', '#79cd75', '#e899ce', '#f67300'],
         url: 'https://www.gatsbyjs.com/',
     },
+    {
+        bannerPath: '/websites/banners/github.png',
+        color: '#24292e',
+        description: 'Version control and hosting platform',
+        faviconPath: '/websites/favicons/github.png',
+        name: 'GitHub',
+        palette: ['#24292e', '#c94ba7', '#397ef1', '#2faa52'],
+        url: 'https://github.com/',
+    },
 ]
