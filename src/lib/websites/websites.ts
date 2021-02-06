@@ -213,7 +213,7 @@ export const websites: WebsiteType[] = [
         description: 'Business communication platform',
         faviconPath: '/websites/favicons/slack.png',
         name: 'Slack',
-        palette: ['#611f69', '#1d1d1d', '#f6efe8', '#2eb67d', '#ecb22e', '#e01e5a', '#36c5f0'],
+        palette: ['#611f69', '#1d1d1d', '#f6efe8', '#2eb67d', '#edf0f5#ecb22e', '#e01e5a', '#36c5f0'],
         url: 'https://slack.com/',
     },
     {
@@ -224,5 +224,14 @@ export const websites: WebsiteType[] = [
         name: 'Sketch',
         palette: ['#fa6400', '#f8f8fb', '#000000'],
         url: 'https://www.sketch.com/',
+    },
+    {
+        bannerPath: '/websites/banners/proof.png',
+        color: '#08083d',
+        description: 'Website conversion optimization',
+        faviconPath: '/websites/favicons/proof.png',
+        name: 'Proof',
+        palette: ['#08083d', '#1e43ff', '#00cec9', '#b7c4dc', '#435b8c', '#edf0f5'],
+        url: 'https://useproof.com/',
     },
 ]
