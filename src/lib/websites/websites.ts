@@ -261,4 +261,13 @@ export const websites: WebsiteType[] = [
         palette: ['#fb6970', '#f3f6f9', '#212f4f', '#52a377', '#48639c'],
         url: 'https://convertkit.com/',
     },
+    {
+        bannerPath: '/websites/banners/heroku.png',
+        color: '#79589f',
+        description: 'Hosting provider',
+        faviconPath: '/websites/favicons/heroku.png',
+        name: 'Heroku',
+        palette: ['#79589f', '#1969ca', '#e8e8e8', '#fafbfc'],
+        url: 'https://www.heroku.com/',
+    },
 ]
