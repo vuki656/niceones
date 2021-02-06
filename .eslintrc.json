@@ -1,6 +1,7 @@
 {
     "extends": [
         "@dvukovic/eslint-config/core",
+        "@dvukovic/eslint-config/typescript",
         "@dvukovic/eslint-config/react"
     ],
     "parser": "@typescript-eslint/parser",
