@@ -315,4 +315,13 @@ export const websites: WebsiteType[] = [
         palette: ['#30343f', '#1c1e1f', '#012b29', '#2b2b77', '#a06ba0'],
         url: 'https://jumpcut.com/',
     },
+    {
+        bannerPath: '/websites/banners/clickup.png',
+        color: '#7b68ee',
+        description: 'Project management tool',
+        faviconPath: '/websites/favicons/clickup.png',
+        name: 'ClickUp',
+        palette: ['#7b68ee', '#4193f5', '#00c98b', '#f3a525', '#6e5dea', '#fc70ae', '#73a0d5'],
+        url: 'https://clickup.com/',
+    },
 ]
