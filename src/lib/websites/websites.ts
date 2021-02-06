@@ -2,7 +2,7 @@ export type WebsiteType = {
     name: string
     url: string
     color: string
-    palette?: string[]
+    palette: string[]
     bannerPath: string
     faviconPath: string
     description: string
