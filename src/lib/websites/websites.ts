@@ -234,4 +234,13 @@ export const websites: WebsiteType[] = [
         palette: ['#08083d', '#1e43ff', '#00cec9', '#b7c4dc', '#435b8c', '#edf0f5'],
         url: 'https://useproof.com/',
     },
+    {
+        bannerPath: '/websites/banners/careof.png',
+        color: '#f1574b',
+        description: 'Personalized daily vitamin pack subscription',
+        faviconPath: '/websites/favicons/careof.png',
+        name: 'Care Of',
+        palette: ['#f1574b', '#7296a4', '#282c2f', '#f7db99', '#ced8ec', '#e5ddd6', '#edd596', '#f0cbcb'],
+        url: 'https://takecareof.com/',
+    },
 ]
