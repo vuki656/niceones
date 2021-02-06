@@ -2,7 +2,7 @@ export type WebsiteType = {
     name: string
     url: string
     color: string
-    palette?: string[]
+    palette: string[]
     bannerPath: string
     faviconPath: string
     description: string
@@ -296,5 +296,95 @@ export const websites: WebsiteType[] = [
         name: 'Graphy',
         palette: ['#989ef2', '#0f0f18', '#f9be36', '#6ca6dd', '#bde0f8', '#f9bede', '#64b59e'],
         url: 'https://graphyapp.com/',
+    },
+    {
+        bannerPath: '/websites/banners/prisma.png',
+        color: '#1a202d',
+        description: 'Node ORM',
+        faviconPath: '/websites/favicons/prisma.png',
+        name: 'Prisma',
+        palette: ['#1a202d', '#48bb78', '#aff1e6', '#4299e1', '#667eea', '#bb9af4'],
+        url: 'https://www.prisma.io/',
+    },
+    {
+        bannerPath: '/websites/banners/jumpcut.png',
+        color: '#30343f',
+        description: 'Online learning platform',
+        faviconPath: '/websites/favicons/jumpcut.png',
+        name: 'Jumpcut',
+        palette: ['#30343f', '#1c1e1f', '#012b29', '#2b2b77', '#a06ba0'],
+        url: 'https://jumpcut.com/',
+    },
+    {
+        bannerPath: '/websites/banners/clickup.png',
+        color: '#7b68ee',
+        description: 'Project management tool',
+        faviconPath: '/websites/favicons/clickup.png',
+        name: 'ClickUp',
+        palette: ['#7b68ee', '#4193f5', '#00c98b', '#f3a525', '#6e5dea', '#fc70ae', '#73a0d5'],
+        url: 'https://clickup.com/',
+    },
+    {
+        bannerPath: '/websites/banners/linear.png',
+        color: '#5e6ad2',
+        description: 'Issue management tool',
+        faviconPath: '/websites/favicons/linear.png',
+        name: 'Linear',
+        palette: ['#5e6ad2', '#33333a', '#da615d', '#e69d5a'],
+        url: 'https://linear.app/',
+    },
+    {
+        bannerPath: '/websites/banners/brave.png',
+        color: '#fb542b',
+        description: 'Browser',
+        faviconPath: '/websites/favicons/brave.png',
+        name: 'Brave',
+        palette: ['#fb542b', '#482fc7', '#b524b0'],
+        url: 'https://brave.com/',
+    },
+    {
+        bannerPath: '/websites/banners/gatsby.png',
+        color: '#663399',
+        description: 'React front-end framework',
+        faviconPath: '/websites/favicons/gatsby.png',
+        name: 'Gatsby',
+        palette: ['#663399', '#bc027f', '#05f7f4', '#159bf3', '#79cd75', '#e899ce', '#f67300'],
+        url: 'https://www.gatsbyjs.com/',
+    },
+    {
+        bannerPath: '/websites/banners/github.png',
+        color: '#24292e',
+        description: 'Version control and hosting platform',
+        faviconPath: '/websites/favicons/github.png',
+        name: 'GitHub',
+        palette: ['#24292e', '#c94ba7', '#397ef1', '#2faa52'],
+        url: 'https://github.com/',
+    },
+    {
+        bannerPath: '/websites/banners/gumroad.png',
+        color: '#329da1',
+        description: 'Online digital marketplace',
+        faviconPath: '/websites/favicons/gumroad.png',
+        name: 'Gumroad',
+        palette: ['#329da1', '#ef3314', '#fbdb3e', '#f9dd9b', '#ee563e'],
+        url: 'https://gumroad.com/',
+    },
+    {
+        bannerPath: '/websites/banners/screeps.png',
+        color: '#3d57ca',
+        description: 'MMO sandbox game for programmers',
+        faviconPath: '/websites/favicons/screeps.png',
+        name: 'Screeps',
+        palette: ['#3d57ca', '#191b20', '#13151a'],
+        url: 'https://screeps.com/',
+    },
+    {
+        bannerPath: '/websites/banners/capacitor.png',
+        color: '#119eff',
+        description: 'Cross-platform native runtime for web apps',
+        faviconPath: '/websites/favicons/capacitor.png',
+        name: 'Capacitor',
+        palette: ['#119eff', '#ffb762', '#f6f9fc', '#bfe4ff'],
+        url: 'https://capacitorjs.com/',
     },
 ]
