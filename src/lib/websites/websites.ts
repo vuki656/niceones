@@ -243,4 +243,13 @@ export const websites: WebsiteType[] = [
         palette: ['#f1574b', '#7296a4', '#282c2f', '#f7db99', '#ced8ec', '#e5ddd6', '#edd596', '#f0cbcb'],
         url: 'https://takecareof.com/',
     },
+    {
+        bannerPath: '/websites/banners/instapage.png',
+        color: '#0d2187',
+        description: 'Landing page creator',
+        faviconPath: '/websites/favicons/instapage.png',
+        name: 'Instapage',
+        palette: ['#0d2187', '#b8cfd7', '#273245', '#00d4ae', '#6f4ff6', '#3d84fe', '#ffd739', '#ff6f61'],
+        url: 'https://instapage.com/',
+    },
 ]
