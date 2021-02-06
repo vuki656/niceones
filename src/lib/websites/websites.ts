@@ -297,4 +297,13 @@ export const websites: WebsiteType[] = [
         palette: ['#989ef2', '#0f0f18', '#f9be36', '#6ca6dd', '#bde0f8', '#f9bede', '#64b59e'],
         url: 'https://graphyapp.com/',
     },
+    {
+        bannerPath: '/websites/banners/prisma.png',
+        color: '#1a202d',
+        description: 'Node ORM',
+        faviconPath: '/websites/favicons/prisma.png',
+        name: 'Prisma',
+        palette: ['#1a202d', '#48bb78', '#aff1e6', '#4299e1', '#667eea', '#bb9af4'],
+        url: 'https://www.prisma.io/',
+    },
 ]
