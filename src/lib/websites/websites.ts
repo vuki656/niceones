@@ -279,4 +279,13 @@ export const websites: WebsiteType[] = [
         palette: ['#f55d81', '#94ddd5', '#060606', '#d700ff'],
         url: 'https://www.conversion.ai/',
     },
+    {
+        bannerPath: '/websites/banners/plausible.png',
+        color: '#5850ec',
+        description: 'Website analytics',
+        faviconPath: '/websites/favicons/plausible.png',
+        name: 'Plausible',
+        palette: ['#5850ec', '#f9fafb', '#31c48d', '#fdf6b2'],
+        url: 'https://plausible.io/',
+    },
 ]
