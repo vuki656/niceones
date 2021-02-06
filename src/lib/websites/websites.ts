@@ -252,4 +252,13 @@ export const websites: WebsiteType[] = [
         palette: ['#0d2187', '#b8cfd7', '#273245', '#00d4ae', '#6f4ff6', '#3d84fe', '#ffd739', '#ff6f61'],
         url: 'https://instapage.com/',
     },
+    {
+        bannerPath: '/websites/banners/convertkit.png',
+        color: '#fb6970',
+        description: 'Email marketing platform',
+        faviconPath: '/websites/favicons/convertkit.png',
+        name: 'Convertkit',
+        palette: ['#fb6970', '#f3f6f9', '#212f4f', '#52a377', '#48639c'],
+        url: 'https://convertkit.com/',
+    },
 ]
