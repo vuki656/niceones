@@ -342,4 +342,13 @@ export const websites: WebsiteType[] = [
         palette: ['#fb542b', '#482fc7', '#b524b0'],
         url: 'https://brave.com/',
     },
+    {
+        bannerPath: '/websites/banners/gatsby.png',
+        color: '#663399',
+        description: 'React front-end framework',
+        faviconPath: '/websites/favicons/gatsby.png',
+        name: 'Gatsby',
+        palette: ['#663399', '#bc027f', '#05f7f4', '#159bf3', '#79cd75', '#e899ce', '#f67300'],
+        url: 'https://www.gatsbyjs.com/',
+    },
 ]
