@@ -306,4 +306,13 @@ export const websites: WebsiteType[] = [
         palette: ['#1a202d', '#48bb78', '#aff1e6', '#4299e1', '#667eea', '#bb9af4'],
         url: 'https://www.prisma.io/',
     },
+    {
+        bannerPath: '/websites/banners/jumpcut.png',
+        color: '#30343f',
+        description: 'Online learning platform',
+        faviconPath: '/websites/favicons/jumpcut.png',
+        name: 'Jumpcut',
+        palette: ['#30343f', '#1c1e1f', '#012b29', '#2b2b77', '#a06ba0'],
+        url: 'https://jumpcut.com/',
+    },
 ]
