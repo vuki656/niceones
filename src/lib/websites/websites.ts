@@ -360,4 +360,13 @@ export const websites: WebsiteType[] = [
         palette: ['#24292e', '#c94ba7', '#397ef1', '#2faa52'],
         url: 'https://github.com/',
     },
+    {
+        bannerPath: '/websites/banners/gumroad.png',
+        color: '#329da1',
+        description: 'Online digital marketplace',
+        faviconPath: '/websites/favicons/gumroad.png',
+        name: 'Gumroad',
+        palette: ['#329da1', '#ef3314', '#fbdb3e', '#f9dd9b', '#ee563e'],
+        url: 'https://gumroad.com/',
+    },
 ]
