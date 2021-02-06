@@ -324,4 +324,13 @@ export const websites: WebsiteType[] = [
         palette: ['#7b68ee', '#4193f5', '#00c98b', '#f3a525', '#6e5dea', '#fc70ae', '#73a0d5'],
         url: 'https://clickup.com/',
     },
+    {
+        bannerPath: '/websites/banners/linear.png',
+        color: '#5e6ad2',
+        description: 'Issue management tool',
+        faviconPath: '/websites/favicons/linear.png',
+        name: 'Linear',
+        palette: ['#5e6ad2', '#33333a', '#da615d', '#e69d5a'],
+        url: 'https://linear.app/',
+    },
 ]
