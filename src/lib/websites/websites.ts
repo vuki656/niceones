@@ -378,4 +378,13 @@ export const websites: WebsiteType[] = [
         palette: ['#3d57ca', '#191b20', '#13151a'],
         url: 'https://screeps.com/',
     },
+    {
+        bannerPath: '/websites/banners/capacitor.png',
+        color: '#119eff',
+        description: 'Cross-platform native runtime for web apps',
+        faviconPath: '/websites/favicons/capacitor.png',
+        name: 'Capacitor',
+        palette: ['#119eff', '#ffb762', '#f6f9fc', '#bfe4ff'],
+        url: 'https://capacitorjs.com/',
+    },
 ]
