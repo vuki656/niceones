@@ -13,7 +13,7 @@
     "next": "10.0.6",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "styled-components": "^5.2.1"
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@dvukovic/eslint-config": "^5.1.1",
