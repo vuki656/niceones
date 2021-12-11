@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@dvukovic/dujo-ui": "^3.0.3",
-    "next": "10.0.6",
+    "next": "10.2.3",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "styled-components": "^5.2.1"
