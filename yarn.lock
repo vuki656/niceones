@@ -265,10 +265,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@dvukovic/dujo-ui@^3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@dvukovic/dujo-ui/-/dujo-ui-3.0.3.tgz#2bb0d7f4576d18dc7d72faf972c7e5667e75414c"
-  integrity sha512-AW+xqO/17dap2i0Kn1CxmcewJFg+zLWuUTjSZwztMOwqQ4dFF/D06LF0FMCTn1qdfdypsYF+QCZft99fhnKtcw==
+"@dvukovic/dujo-ui@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@dvukovic/dujo-ui/-/dujo-ui-3.1.1.tgz#06ee278ff068e33b2831a89f8d3891bec4ad19c5"
+  integrity sha512-ssuv25zbgYlYY3SvD8FRX4iGSKmjL2E+u8NRGv45VmvKbtkFZXdNbqr0321Z7WzlyYFWLsjQ5biUjOLqtHGn5Q==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@tippyjs/react" "^4.2.0"
